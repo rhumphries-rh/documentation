@@ -1,12 +1,13 @@
 ---
-date: '2022-09-14T22:07:08.614151'
+date: '2023-03-29'
 title: Adding a Public Ingress endpoint to a ROSA Private-Link Cluster
 tags: ["AWS", "ROSA", "Private Link"]
 ---
 
+*Last updated on 3/29/2023 by Reese Humphries*
 The is an example guide for creating a public ingress endpoint for a ROSA Private-Link cluster. Be aware of the security implications of creating a public subnet in your ROSA VPC this way.
 
-![architecture diagram showing privatelink with public ingress](../images/arch-pl-ingress.png)
+![architecture diagram showing privatelink with public ingress](./images/arch-pl-ingress.png)
 
 ## Prerequisites
 
